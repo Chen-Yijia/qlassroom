@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, .03) !important; */
+  background-color: #f7f7f7 !important;
+}
+
+.wrapper {
+  min-height: 100% !important;
+  min-width: 90px !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  position: absolute !important;
+}
+
+.ui.labeled.icon.button > .icon {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.container {
+    margin-top: 30px !important;
+}
+
+
+
+
+.information-item>p {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.ui.checkbox {
+    margin: 0 auto !important;
+    height: 60px !important;
+    font-size: 16px !important;
+    text-decoration: underline !important;
+    text-align: center !important;
+    vertical-align: auto !important;
+}

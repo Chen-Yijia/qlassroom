@@ -1,0 +1,162 @@
+html,
+body {
+  height: 100%;
+  /* background-color: rgba(0, 0, 0, .03) !important; */
+  background-color: #f7f7f7 !important;
+}
+
+.wrapper {
+  min-height: 100% !important;
+  min-width: 90px !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  position: absolute !important;
+}
+
+.ui.labeled.icon.button > .icon {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+
+
+.pending-task-item:hover,
+.completed-task-item:hover {
+  box-shadow: 0 2px 8px #bbb !important;
+  cursor: pointer;
+}
+
+.pending-task-item {
+  height: 75px !important;
+  /* margin-top: 5px !important; */
+}
+
+.add-new-item {
+  position: absolute !important;
+  right: 50px !important;
+  top: 8px !important;
+  background-color: #d7cec7 !important;
+}
+
+.weekly-task {
+  height: 300px !important;
+}
+
+.edit_plan {
+  height: 3px;
+  float: right;
+  margin-top: 7px;
+  margin-right: 40px;
+  font-size: medium;
+}
+
+.edit_plan:hover {
+  color: gray;
+}
+
+.planned_tasks {
+  height: 100px !important;
+}
+
+.actual_work {
+  height: 100px !important;
+}
+
+.completed-task-item {
+  height: 60px !important;
+  /* margin-top: 5px !important; */
+}
+
+.completed.step,
+.disabled.step,
+.active.step {
+  width: 350px !important;
+  text-align: center !important;
+}
+
+.ui.form .button-row {
+  /* height: 50px !important; */
+  margin-top: 20px !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.ui.form .button-row .submit-button {
+  display: inline !important;
+  /* margin-left: 440px !important;
+  margin-top: 20px !important;
+  width: 40px !important; */
+}
+
+.ui.form .button-row .edit-button { 
+  display: inline !important;
+  margin-left: 15px !important;
+
+}
+
+.sub-nav {
+  position: fixed !important;
+  left: 68px !important;
+}
+
+.main-panel {
+  display: flex !important;
+  margin-left: 280px !important;
+  margin-right: 10px !important;
+  min-width: 720px !important;
+  height: auto !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.profile-main-panel {
+  display: relative !important;
+  right: 105px !important;
+  margin-left: 280px !important;
+  margin-right: 10px !important;
+  min-width: 720px !important;
+  height: auto !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.step-row{
+  width: 50% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ui.progress .bar>.progress {
+  right: .05em !important;
+}
+
+
+.panel-header {
+  /* min-height: 50px; */
+  /* margin-top: 50px; */
+  position: relative !important;
+  margin-top: 10px !important;
+  margin-bottom: 30px !important;
+  vertical-align: middle;
+  height: 70px !important;
+}
+
+.panel-header .header {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  vertical-align: middle !important;
+}
+
+.solutions-support-menu .item {
+  /* fontSize: '12px', marginRight: '0px', paddingLeft: '100px', paddingRight: '0px' */
+  font-size: 12px !important;
+  margin-right: 0px !important;
+  padding-left: 11px !important;
+  padding-right: 0px !important;
+}
+
+.component-button {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
